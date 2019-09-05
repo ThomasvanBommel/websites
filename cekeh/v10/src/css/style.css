@@ -1,0 +1,119 @@
+body, header, div{
+    font-family:inherit;
+    font-size:inherit;
+}
+
+h1, h2, h3, h4, h5  { 
+    margin:0; 
+    line-height:1em;
+}
+
+h1  { font-size:var(--h1); }
+h3  { font-size:var(--h3); }
+
+ul { 
+    margin:0;
+    padding:0;
+    list-style-type:none; 
+}
+
+@font-face{
+    font-family:Bebas;
+    src:url("BebasNeue.otf");
+}
+
+@font-face{
+    font-family:BebasLight;
+    src:url("BebasNeueLight.otf");
+}
+
+:root{
+    --h1:6vmax;
+    --h3:3vmax;
+    
+    --header-height:var(--h1);
+    
+    font-family:monospace;
+    font-size:2vmax;
+}
+
+#header{
+    width:100%;
+    min-width:18vmax;
+    height:var(--header-height);
+    float:left;
+    
+    position:relative;
+    display:flex;
+}
+
+#header .logo{
+    width:calc(var(--h1) * 3.7);
+    height:100%;
+    
+    float:left;
+    flex:0;
+    
+    font-family:BebasLight;
+}
+
+#header .logo h3{
+    position:absolute;
+    left:100%;
+    
+    color:darkgray;
+}
+
+#header .navigation{
+    height:100%;
+    min-width:var(--header-height);
+    
+    float:left;
+    flex:1;
+}
+
+#header .navigation .bar{
+    width:max-content;
+    float:right;
+}
+
+#header .navigation .bar a{
+    height:100%;
+    float:right;
+
+    padding:0 1vmax;
+    
+    line-height:var(--header-height);
+    text-decoration:none;
+    color:inherit;
+}
+
+#header .navigation .bar a:not(.active):hover{
+    background-color:#ffe;
+}
+
+#header .navigation .bar a.active{
+    background-color:orange;
+    color:white;
+}
+
+#header .navigation .menu{
+    width:var(--header-height);
+    height:100%;
+    float:right;
+    
+    border-radius:1vmax;
+}
+
+#header .navigation .menu:hover{ cursor:pointer; }
+#header .navigation .menu:hover div{ background-color:#000; }
+
+#header .navigation .menu div{
+    width:80%;
+    height:7.5%;
+    
+    margin:19.375% 10%;
+    border-radius:1vmax;
+    
+    background-color:orange;
+}

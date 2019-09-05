@@ -1,0 +1,90 @@
+/* INDEX */
+body{
+	margin:0;
+}
+#header{
+	width:100vw;
+	height:10vw;
+	float:left;
+	text-align:center;
+	text-shadow:.5vw .5vw #AAA;
+}
+#logo{
+	font-size:10vw;
+	margin:0 auto;
+	text-align:center;
+	line-height:10vw;
+	position:relative;
+}
+#stats{
+	width:96%;
+	height:15vw;
+	margin:0 auto;
+	margin-left:1%;
+	padding:1%;
+	font-size:3vw;
+	position:relative;
+}
+#content{
+	width:98vw;	
+	height: calc(100% - 15vw - 30px);
+	float:left;	
+	margin-top:1vw;
+	margin-left:1vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+}
+time{
+	color:#F00;
+}
+description{
+	width:85%;
+	float:right;
+	font-size:2vw;
+	color:#999;
+}
+footer{
+	width:98%;
+	height:5vw;
+	margin-left:1%;
+	background-color:#CCC;
+	position:absolute;
+	bottom:0;
+	line-height:5vw;
+}
+#foot_text{
+	font-size:2vw;
+	vertical-align:middle;
+	color:#888;
+}
+
+a{
+	color:#00F;
+}
+a:link{
+	color:#00F;
+}
+a:visited{
+	color:#00F;
+}
+a:hover{
+	color:#00F;
+	cursor:pointer;
+}
+a:active{
+	color:#00F;
+}
+
+/* COLORS */
+.light_gray{
+	background-color:#EEE;
+	box-shadow:2px 2px #DDD;
+}
+.gray{
+	background-color:#DDD;
+	box-shadow:2px 2px #CCC;
+}
+.dark_gray{
+	background-color:#CCC;
+	box-shadow:2px 2px #BBB;
+}

@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title></title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="jQuery.js"></script>
+        <script src="jScript.js"></script>
+        <script src="spline.js"></script>
+       
+	</head>
+
+	<body>
+    	<div id="page">
+        	<!-- -->
+            <div id="header"></div>
+            <!-- -->
+            <div id="menuBar">
+            	<div class="optionMenu">
+                	<div class="optClass">
+                        <opt>File</opt>
+                        <ul><hr>
+                            <li> | Open...</li>
+                            <li> | Import</li>
+                            <li> | Export</li><hr>
+                            <li> | Save...</li>
+                            <li> | Save As</li><hr>
+                            <li> | Exit</li>
+                        </ul>
+                    </div>
+                    <div class="optClass">
+                    <opt>Edit</opt>
+                        <ul><hr>
+                            <li> | Undo</li>
+                            <li> | Redo</li><hr>
+                            <li> | Cut</li>
+                            <li> | Copy</li>
+                            <li> | Paste</li><hr>
+                            <li> | Preferences</li>
+                        </ul>
+                    </div>
+                </div>
+            	<div class="buttonList">
+                	<t>0</t>
+                	<a href="#" class="wideScreen"><list>1</list></a>
+                	<a href="#" class="midScreen"><list>.5</list></a>
+                    <a href="#" class="smallScreen"><list>.25</list></a>
+                </div> 
+                <div class="collapse" id="hideHeader">
+                    <a href="#"><center>&#8645;</center></a>
+                </div> 
+            </div>
+            <!-- -->       
+            <div id="content">
+            	<div id="contentTop"></div>
+                <div id="contentBtm">
+                	<canvas id="spline">
+                    
+                    </canvas>
+                </div>
+            </div>
+            <!-- -->
+        </div>
+	</body>
+</html>

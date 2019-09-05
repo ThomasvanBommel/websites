@@ -1,0 +1,18 @@
+body{
+	width:500;
+	height:500;
+	background: linear-gradient(#87CEFA, #FFF), transparent url('../images/Cloud500x259.png') no-repeat;
+}
+
+.background_cloud{
+	position:absolute;
+	animation:move_cloud 10s infinite;
+}
+@keyframes move_cloud {
+	from{
+		left:-500px;
+	}
+	to{
+		left:calc(100% + 500px);
+	}
+}

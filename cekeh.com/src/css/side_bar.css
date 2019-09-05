@@ -1,0 +1,47 @@
+/* Side bar */
+#side_bar{
+	width: 20%;
+	height: 95%;
+	float: left;
+	background-color: #CCC;
+}
+
+/* Overview */
+#overview_window{
+	width: calc(100% - 4px);
+	height: calc(25% - 4px);
+	float:left;
+	border: 2px solid #BBB;
+	background-color: #FFF;
+}
+
+#overview_window a{
+	width: 100%;
+	display: table;
+	font-size: 1vh;
+}
+
+/*#overview_window a:hover{
+	color: #99F;
+}*/
+
+#overview_window .package a{
+	margin-left:1vh;
+}
+
+#overview_window .class a{
+	margin-left:2vh;
+}
+
+
+/*  */
+.list{
+	padding: 10px;
+	outline: 1px solid #000;
+	position: static;
+}
+
+.list a{
+	position: relative;
+	left: -20px;
+}

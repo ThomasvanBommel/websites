@@ -1,0 +1,110 @@
+/* RESET */
+html, body, h1, h2, h3, h4, h5, table, th, form, input, button{
+    margin:0;
+    padding:0;
+    font-weight:normal;
+    font-size:inherit;
+}
+
+button{
+    padding:2px;
+}
+
+/* FONT */
+@font-face{
+    font-family:Bebas;
+    src:url("BebasNeueLight.otf");
+}
+
+/* ROOT */
+:root{
+    --header-height:    40px;
+    --header-min-width: 227px;
+    --sidebar-width:    200px;
+}
+
+/* MOBILE */
+html{
+    font-family:Verdana, sans-serif;/* Verdana, sans-serif */
+    font-size:16px;
+}
+
+body{
+/*    overflow:hidden;*/
+}
+
+#content.active-sidebar{
+    width:calc(100% - var(--sidebar-width) * 2);
+}
+
+.logo{
+    line-height:calc(var(--header-height) - 2px);
+    font-size:calc(var(--header-height));
+    letter-spacing:3px;
+    text-transform:uppercase;
+}
+
+.w100   { width :100%; }
+.h100   { height:100%; }
+
+.w100.plus-sidebar-width    { width :calc(100% + var(--sidebar-width)); }
+
+.w100.minus-sidebar-width   { width :calc(100% - var(--sidebar-width)); }
+.h100.minus-header-height   { height:calc(100% - var(--header-height)); }
+
+.left   { float:left;  }
+.right  { float:right; }
+
+.bg-white   { background-color:#ffffff; }
+.bg-black   { background-color:#000000; }
+.bg-red     { background-color:#ff0000; }
+.bg-green   { background-color:#00ff00; }
+.bg-blue    { background-color:#0000ff; }
+.bg-gray    { background-color:#9a9a9a; }
+
+.bg-light-gray  { background-color:#cccccc; }
+
+.bg-white.flip-colors   { background-color:#000000; }
+.bg-black.flip-colors   { background-color:#ffffff; }
+
+.color-white    { color:#fff; }
+.color-black    { color:#000; }
+
+.color-white.flip-colors    { color:#000; }
+.color-black.flip-colors    { color:#fff; }
+
+/*.fw-bold    { font-weight:bold; }*/
+
+.hide   { display:none; }
+
+.fixed  { position:fixed; }
+
+.transition1s   { transition:all 1s; }
+
+.pointer:hover    { cursor:pointer; }
+
+.minimize tr:not(.table-title){
+    display:none;
+}
+
+.tall{
+    height:10000px;
+}
+
+#content{
+    overflow-y:scroll;
+}
+
+
+
+
+
+/* DESKTOP */
+@media only screen and (max-width:410px){
+    :root{
+        --sidebar-width:    100vw;
+    }
+    
+    main{
+    }
+}

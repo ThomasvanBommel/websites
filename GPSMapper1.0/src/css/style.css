@@ -1,0 +1,72 @@
+:root{
+    --error_color:#f44;
+    --field_color:#0f5;
+}
+
+body{
+    margin:0 auto;
+}
+
+#controls{
+    width:100%;
+    
+    float:left;
+    
+    background-color:#fff;
+}
+
+#controls button{
+    float:left;
+}
+
+#coordinates{
+    float:left;
+}
+
+#coordinates p{
+    width:100%;
+    
+    float:left;
+    
+    text-align:center;
+    
+    color:#050;
+    background-color:#aaa;
+}
+
+#canvas{
+    width:100%;
+    height:100%;
+    
+    float:left;
+    
+    background-color:var(--field_color);
+}
+
+#notifications{
+    width:100%;
+    
+    position:absolute;
+    bottom:0;
+    left:0;
+    
+    background-color:var(--error_color);
+    color:#fff;
+}
+
+#notification{
+    width:100%;
+    float:left;
+}
+
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+p{
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,17 @@
+#login{
+	width:33vw;
+	height:15vw;
+	margin:0 auto;
+}
+#form{
+	width:32vw;
+	height:calc((100% - 2vw) / 3);
+	margin:calc(2vw / 6);
+	font-size:2vw;
+}
+#create_account_link{
+	width: 33vw;
+	margin:0 auto;
+	text-align:center;
+	font-size:2vw;
+}

@@ -1,0 +1,60 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#canvas{
+    width:calc(100% - 200px);
+    height:100%;
+    
+    float:left;
+}
+
+#fps{
+    color:#fff;
+    font-weight:bold;
+    
+    position:absolute;
+    bottom:0;
+    right:2px;
+}
+
+#tools{
+    width:200px;
+    height:100%;
+    
+    float:left;
+}
+
+#field_tool, #field_selection, #history_tool, #history_selection{
+    width:100%;
+}
+
+#new_field, #remove_field, #rename_field{
+    width:50%;
+    
+    float:left;
+}
+
+#new_field{
+    background-color:#afa;
+}
+
+#remove_field{
+    background-color:#faa;
+}
+
+#rename_field{
+    width:100%;
+}
+
+#history_selection option{
+    width:100%;
+    
+    overflow:hidden;
+    text-overflow:ellipsis;
+    
+    display:list-item;
+    list-style-type:disc;
+    list-style-position:inside;
+}

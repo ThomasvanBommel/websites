@@ -1,0 +1,25 @@
+stat{
+	background-color:#CCC;
+	box-shadow:2px 2px #BBB;
+}
+#information_box{
+	width:50%;
+	height:100%;
+	float:left;	
+}
+#history_box{
+	width:50%;
+	height:100%;
+	float:right;
+}
+#log_out_button{
+	font-size:3vw;
+	background-color:#EEE;
+	position:absolute;
+	bottom:1vw;
+	right:1vw;
+}
+#log_out_button:hover{
+	background-color:#BBB;
+	cursor:pointer;
+}

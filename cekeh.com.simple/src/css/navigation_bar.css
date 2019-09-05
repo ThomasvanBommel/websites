@@ -1,0 +1,62 @@
+#navigation_bar{
+    width:100%;
+    height:20px;
+    
+    float:left;
+    margin:0;
+    
+    position:fixed;
+    left:0;
+    top:0;
+    
+    color:var(--foreground-color);
+    background-color:var(--background-color);
+    
+    z-index:1000;
+}
+
+#navigation_bar #logo{
+    height:100%;
+    
+    float:left;
+    
+    color:var(--foreground-color);
+    font:normal small-caps 18px "Lucida Console";
+}
+
+#navigation_bar #menu{
+    height:100%;
+    width:20px;
+    
+    float:right;
+    
+    background-color:var(--background-color);
+}
+
+#navigation_bar #menu div{
+    width:80%;
+    height:14.285%;
+    
+    margin:14.285% 10%;
+    
+    background-color:var(--foreground-color);
+}
+
+#navigation_bar #menu.active{
+    background-color:var(--foreground-color);
+}
+
+#navigation_bar #menu.active div{
+    background-color:var(--background-color);
+}
+
+#navigation_bar #menu:hover{
+    cursor:pointer;
+}
+
+#navigation_bar #invert{
+    width:20px;
+    height:100%;
+    
+    float:right;
+}

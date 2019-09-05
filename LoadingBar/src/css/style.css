@@ -1,0 +1,23 @@
+p{ padding:0; margin:0; }
+
+#LoadingProgress{
+	--size: 50vmin;
+	--color: #F0F;
+	
+	width:var(--size);
+	height:var(--size);
+	
+	border-radius:50%;
+	margin:calc(var(--size) / 2);
+	
+	background-color:#000;
+	color:var(--color);
+	
+	text-align:center;
+	font-size:var(--size);
+	line-height:100%;
+}
+
+p{
+	position:absolute;
+}

@@ -1,0 +1,34 @@
+/*HEADER*/
+Header{
+	width:100vw;
+	height:10vh;
+
+	float:left;
+
+	background-color:#2d5a8c;
+}
+
+	/*LOGO*/
+	Header #logo{
+		height:10vh;
+
+		margin:0 auto;
+		float:left;
+	}
+		Header #logo .icon{
+			float:left;
+
+			position:relative;
+			top:2vh;
+		}
+		Header #logo .cekeh{
+			float:left;
+
+			font-weight:900;
+			font-family:sans-serif;
+			color:#FFF;
+			
+			position:relative;
+			top:-2.5vh;
+		}
+

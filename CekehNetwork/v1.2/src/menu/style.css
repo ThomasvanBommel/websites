@@ -1,0 +1,70 @@
+/*MENU*/
+	Menu{
+		height:90vh;
+
+		float:right;
+		position:fixed;
+		right:0;
+
+		padding:0;
+		overflow:hidden;
+		
+		background-color:#DDD;
+	}
+
+		/*BUTTON*/
+		Menu #button{
+			width:100%;
+			color:#999;
+
+			white-space:nowrap;
+			/*display:none;*/
+		}
+		Menu #button:hover{
+			background-color:#CCC;
+			color:#000;
+			cursor:pointer;
+		}
+			Menu #button .text{
+				font-size:25%;
+				padding:1vh 2vh 1vh 2vh;
+			}
+
+/*Menu Toggle*/
+MenuToggle{
+	width:5vh;
+	height:5vh;
+
+	position:absolute;
+	top:2.5vh;
+	right:2.5vh;
+}
+	MenuToggle div{
+		width:90%;
+		height:10%;
+
+		margin:17.5% 0 0 5%;
+		float:left;
+
+		background-color:#FFF;
+	}
+	MenuToggle:hover{
+		background-color:#244870;
+		outline:2px solid #FFF;
+		cursor:pointer;
+
+	}
+
+/*MISC*/
+.large{
+}
+.small{
+	width:0;
+}
+}
+.show{
+	display:block;
+}
+.hidden{
+	display:none;
+}

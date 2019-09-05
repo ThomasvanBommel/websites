@@ -1,0 +1,21 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+p{
+    padding:0;
+    margin:0;
+}
+
+#back_to_top{
+    width:40px;
+    height:40px;
+    
+    position:fixed;
+    bottom:2.5%;
+    right:2.5%;
+    
+    background-color:var(--foreground-color);
+    cursor:pointer;
+}

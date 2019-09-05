@@ -1,0 +1,26 @@
+.rank, .level, .exp, .box{
+	width: calc(33.3% - 22px);
+	color: #ffff00;
+	float:left;
+	border: 2px solid #716451;
+	outline: 2px solid #2d2b24;
+	text-align:right;
+	background-color: #5e5f5a;
+	padding:5px;
+	font-size:52px;
+	text-shadow: 2px 2px #000;
+	margin:4px;
+}
+.skillName{
+	float:left;
+	font-size: 26px;
+	text-align: center;
+	vertical-align:central;
+	position:relative;
+	top:15px;
+	color:#ff981f;
+}
+#header{
+	height: 83px;
+	position:relative;
+}

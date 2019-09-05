@@ -1,0 +1,28 @@
+/* Document */
+body{
+    margin: 0 auto;
+}
+
+table{
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Input table */
+#input{
+}
+
+#submit{
+    width: 100%;
+}
+
+/* Output table */
+#output{
+}
+
+/* Canvas */
+#canvas{
+    width: 100vw;
+    height: calc(100vw / 16 * 9);
+    background-color: #000;
+}

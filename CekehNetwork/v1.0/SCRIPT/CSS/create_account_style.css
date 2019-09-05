@@ -1,0 +1,11 @@
+#create_account{
+	width:33vw;
+	height:20vw;
+	margin:0 auto;
+}
+#form{
+	width:32vw;
+	height:calc((100% - 2vw) / 4);
+	margin:calc(2vw / 8);
+	font-size:2vw;
+}

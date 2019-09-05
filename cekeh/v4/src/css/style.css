@@ -1,0 +1,171 @@
+html, body, button, input, h1, h2, h3, h4, h5, p{
+    padding:0;
+    margin:0;
+    
+    letter-spacing:inherit;
+    line-height:inherit;
+    
+    font-family:inherit;
+    font-weight:inherit;
+    font-size:inherit;
+}
+
+canvas  { width:0; height:0; letter-spacing:0; }
+
+h1  { font-size:12vmax; }
+h2  { font-size:9vmax; } 
+h3  { font-size:7vmax; } 
+h4  { font-size:4vmax; } 
+h5  { font-size:2vmax; } 
+
+:root{
+    --header-height:40px;
+    --header-min-width:113px;
+    
+    --sidebar-width:100vw;
+    
+    --font-size:16px;/*2vmax*/
+    
+    --white:        #ffffff;
+    --black:        #000000;
+    --dark-gray:    #555555;
+    --gray:         #9a9a9a;
+    --light-gray:   #f5f5f5;
+    --red:          #ff0000;
+    --green:        #00ff00;
+    --blue:         #0000ff;
+    --orange:       #ff8c00;
+}
+
+html{
+    letter-spacing: 0.1em;
+    line-height:1;
+    
+    font-family:Bebaslight;
+    font-weight:bold;
+    font-size:var(--font-size);
+}
+
+@font-face{
+    font-family:Bebas;
+    src:url("BebasNeue.otf");
+}
+
+@font-face{
+    font-family:BebasLight;
+    src:url("BebasNeueLight.otf");
+}
+
+/* Header menu button */
+#menu_toggle:hover div{
+    box-shadow:1px 1px var(--black);
+}
+
+#menu_toggle:active div{
+    box-shadow:1px 1px var(--black) inset;
+}
+
+/* Sidebar */
+#sidebar{
+    right:calc(var(--sidebar-width) * -1);
+    top:var(--header-height);
+}
+
+.active-sidebar #sidebar{
+    right:0;
+}
+
+/* DESKTOP */
+@media only screen and (min-width:550px){/* 410px */
+    :root{
+        --sidebar-width:200px;
+    }
+    
+    .active-sidebar #main{
+        width:calc(100% - var(--sidebar-width));
+    }
+}
+
+.w90    { width:90%; }
+.w100   { width:100%; }
+
+.h10    { height:10%; }
+.h20    { height:20%; }
+.h100   { height:100%; }
+
+.header-height  { height:var(--header-height); }
+.sidebar-width  { width :var(--sidebar-width); }
+
+.h100.add-header-height { height:calc(100% + var(--header-height)); }
+.h100.sub-header-height { height:calc(100% - var(--header-height)); }
+.w100.add-sidebar-width { width :calc(100% + var(--sidebar-width)); }
+.w100.sub-sidebar-width { width :calc(100% - var(--sidebar-width)); }
+
+.w100.padding5  { width:calc(100% - 10px); }
+
+.white          { color:var(--white); }
+.black          { color:var(--black); }
+.dark-gray      { color:var(--dark-gray); }
+.gray           { color:var(--gray); }
+.light-gray     { color:var(--light-gray); }
+.red            { color:var(--red); }
+.green          { color:var(--green); }
+.blue           { color:var(--blue); }
+.orange         { color:var(--orange); }
+
+.bg-white       { background-color:var(--white); }
+.bg-black       { background-color:var(--black); }
+.bg-dark-gray   { background-color:var(--dark-gray); }
+.bg-gray        { background-color:var(--gray); }
+.bg-light-gray  { background-color:var(--light-gray); }
+.bg-red         { background-color:var(--red); }
+.bg-green       { background-color:var(--green); }
+.bg-blue        { background-color:var(--blue); }
+.bg-orange      { background-color:var(--orange); }
+
+.border-white   { border:1px solid var(--white); }
+.border-black   { border:1px solid var(--black); }
+
+.outline-white  { outline:1px solid var(--white); }
+.outline-black  { outline:1px solid var(--black); }
+
+.radius { border-radius:25px; }
+
+.padding5   { padding:5px; }
+.padding10  { padding:10px; }
+
+.margin-autox   { margin:0 auto; }
+.margin5        { margin:5px; }
+.margin10       { margin:10px; }
+
+.left   { float: left; }
+.right  { float:right; }
+
+.fixed      { position:fixed; }
+.absolute   { position:absolute; }
+
+.transition { transition:all 0.5s; }
+
+.opacity25  { opacity:0.25; }
+
+.hidden { display:  none; }
+.inline { display:inline; }
+
+.hidden-overflow    { overflow:hidden; }
+.hidden-overflow-x  { overflow-x:hidden; }
+.hidden-overflow-y  { overflow-y:hidden; }
+
+.auto-overflow  { overflow:auto; }
+
+.ellipsis   { text-overflow:"---"; }
+
+.nowrap { white-space:nowrap; }
+
+.bebas          { font-family:Bebas; }
+.bebas-light    { font-family:BebasLight; }
+
+.bold           { font-weight:bold; }
+.center-text    { text-align:center; }
+
+.pointer:hover  { cursor:pointer; }
+

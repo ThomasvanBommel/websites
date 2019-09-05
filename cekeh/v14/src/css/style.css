@@ -1,0 +1,46 @@
+ /* RESET */
+ html, body, header, canvas{
+ 	margin:0;
+ 	padding:0;
+ }
+
+/* FONT FACES */
+@font-face{
+	font-family:BebasLight;
+	src:url("BebasNeueLight.otf");
+}
+
+/* SET INHEIRETANCE */
+html, body, header, canvas{
+	font-family:inherit;
+	font-size:inherit;
+	color:inherit;
+}
+
+ /* ROOT VARIABLES */
+:root{
+	font-family:Lekton
+	font-size:15px;
+	color:black;
+}
+
+/* UNIVERSAL CLASSES */
+.w100{ width:100%; }
+
+.h100{ height:100%; }
+
+.left{ float:left; }
+.right{ float:right; }
+
+/* CUSTOMIZED ELEMENTS */
+#header{
+	height:1em;
+
+	background-color:lightblue;
+	font-family:BebasLight;
+	font-size:20px;
+}
+
+#logo_canvas{
+	/*background-color:black;*/
+}

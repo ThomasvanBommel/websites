@@ -1,0 +1,125 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-size: 2vmin;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAV BAR */
+#nav_bar{
+	width: 100%;;
+	height: 4vmin;
+	float: left;
+	background-color: #63C;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#nav_bar a{
+	font-size: 2vmin;
+	color: #FFF;
+	line-height: 4vmin;
+}
+
+/* SIDE BAR */
+#side_bar{
+	height: calc(100% - 4vmin);
+	float: left;
+	overflow: auto;
+	background-color: #DDD;
+	outline: 2px solid #000;
+	padding-right: 10px;
+	position: relative;
+	top: 4vmin;
+	left: -10px;
+}
+
+.file{
+	text-decoration: underline;
+}
+
+.folder{
+}
+
+/* CONTENT */
+#content{
+	height: calc(100% - 4vmin);
+	padding-top: 4vmin;
+	padding-left: 0.01%;
+	overflow: auto;
+}
+
+#page{
+	display: table;
+	margin: 0 auto;
+}
+
+#text{
+	float: left;
+	white-space: pre;
+	padding-top: 2vmin;
+}
+
+.icon{
+	width: 2vmin;
+	height: 2vmin;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.dir{
+}
+
+/* MISC */
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	cursor: pointer;
+	color: #99F;
+	background-color: #FFF;
+}
+
+ul{
+	padding-left: 20px;
+	margin: 0;
+}
+
+ul, li{
+	list-style-type: none;
+}
+
+
+
+/* SCRIPT CLASSES */
+.filter{
+	display: inline;
+	font-weight: bold;
+	color: #705;/* 802, 35B */
+}
+
+.comment, .comment .filter{
+	display: inline;
+	font-weight: normal !important;
+	color: #375 !important;
+}
+
+.javadoc, .javadoc .filter{
+	display: inline;
+	font-weight: normal !important;
+	color: #00f !important;
+}
+
+.parameter{
+	opacity: 0.1;
+}
+
+.test{
+	display: inline;
+	color: #f00;
+}

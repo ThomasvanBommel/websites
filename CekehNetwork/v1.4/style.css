@@ -1,0 +1,227 @@
+::-webkit-scrollbar{
+	width:0px;
+	height:0px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+html{
+	font:normal normal normal 40px sans-serif;
+}
+body{
+
+}
+
+/*NAVAGATION BAR - Top of the page*/
+#Information{
+}
+
+/*HEADER - Where the logo is*/
+#Header{
+	
+}
+
+#G2{
+	position:relative;
+	overflow-x:scroll;
+	overflow-y:hidden;
+}
+
+graph-div{
+	background-color:#000;
+}
+
+#Graph{
+	width:100%;
+	height:300px;
+	font:25%;
+	position:relative;
+	right:0;
+
+	overflow-x:scroll;
+	overflow-y:hidden;
+}
+	#graph_button{
+		width:20px;
+		height:20px;
+		position:absolute;
+		text-align:center;
+		font-size:25%;
+	}
+#Canvas{
+	height:100%;
+}
+
+.graph_point{
+	width:14px;
+	height:14px;
+	background-color:#BE5100;/* BE5100 */
+	color:#000;
+	border-radius:7px;
+	float:left;
+	font-size:50%;
+	position:absolute;
+	/*box-shadow:0 0 0 3px #F19F06;*/
+	/*border:3px solid #F19F06;*/
+}
+.graph_point:hover{
+	background-color:#05B62C;
+	cursor:pointer;
+	/*box-shadow:0 0 0 4px #51CD6C;*/
+	/*border:3px solid #51CD6C;*/
+}
+#Container{
+}
+#Gap{
+}
+.point{
+	width:20px;
+	height:20px;
+	background-color:#0FF;
+	position:absolute;
+	font-size:50%;
+}
+.point:hover{
+	background-color:#FF0;
+	cursor:pointer;
+}
+
+/*-----------------------------------------------------*/
+/*HEIGHT*/
+.h20{
+	height:20px;
+}
+.h100{
+	height:100px;
+}
+.h300{
+	height:300px;
+}
+
+.height100{
+	height:100%;
+}
+
+/*WIDTH*/
+.w-14{
+	width:calc(100% - 14px);
+}
+.w100{
+	width:100px;
+}
+.w500{
+	width:500px;
+}
+
+.width50{
+	width:50%;
+}
+.width100{
+	width:100%;
+}
+
+.wmin50{
+	min-width:50%;
+}
+
+.wmax500{
+	max-width:500px;
+}
+.wmax1000{
+	max-width:1000px;
+}
+
+/*MARGIN*/
+.m7{
+	margin:10px auto;
+}
+.mtop10{
+	margin:10px 0 0 0;
+}
+
+.mauto{
+	margin:0 auto;
+}
+
+/*BACKGROUNDS*/
+.bg_red{
+	background-color:#F00;
+}
+.bg_green{
+	background-color:#0A0;
+}
+.bg_blue{
+	background-color:#00A;
+}
+.bg_second{
+	background-color:#E1E1E1;
+}
+.bg_light{
+	background:linear-gradient(to bottom right, #E1E1E1, #F8F8F8);
+}
+.bg_dark{
+	background:linear-gradient(to bottom right, #313131, #464646);
+}
+
+/*BORDER*/
+.border{
+	box-shadow:2px solid #FFF;
+}
+.br15{
+	border-radius:15px;
+}
+
+/*SHADOW*/
+.shadow{
+	box-shadow:2px 2px 2px #313131;
+}
+
+/*HOVER*/
+.hover_dark:hover{
+	background:linear-gradient(to bottom right, #313131, #464646);
+	cursor:pointer;
+	color:#FFF;
+}
+.hover_opacity:hover{
+	opacity:0.8;
+	cursor:pointer;
+}
+
+
+/*FONT SIZE*/
+.font40{
+	font-size:40%;
+}
+.font50{
+	font-size:50%;
+}
+
+/*FONT COLOR*/
+.white{
+	color:#FFF;
+}
+.green{
+	color:#0F0;
+}
+
+/*TEXT*/
+.tcenter{
+	text-align:center;
+}
+
+/*FLOAT*/
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.bottom{
+	position:absolute;
+	bottom:0;
+}

@@ -1,0 +1,49 @@
+#feed{
+    width:100%;
+    height:1000%;
+    
+    background-color:var(--background-color);
+}
+
+#feed .image{
+    width:95%;
+    
+    float:left;
+    margin:2.5% 0 0 2.5%;
+    
+    position:relative;
+}
+
+#feed .image:hover img{
+    filter:brightness(50%);
+    transition:all 0.5s;
+}
+
+#feed .image button{
+    display:none;
+    float:left;
+}
+
+#feed .image:hover button{
+    display:block;
+}
+
+#feed .image .options{
+    width:100%;
+    height:40px;
+    
+    display:none;
+    
+    position:absolute;
+    left:0;
+    top:calc(50% - 20px);
+}
+
+#feed .image:hover .options{
+    display:flex;
+}
+
+#feed .center{
+    float:left;
+    margin:auto auto;
+}

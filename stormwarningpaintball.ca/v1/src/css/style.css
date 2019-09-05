@@ -1,0 +1,136 @@
+@font-face{
+    font-family:Stencil;
+    src:url("../../res/fonts/StencilStd.otf");
+}
+
+@font-face{
+    font-family:Painter;
+    src:url("../../res/fonts/Painterz.ttf");
+}
+
+@font-face{
+    font-family:Bebas;
+    src:url("../../res/fonts/BebasNeue.otf");
+}
+
+@font-face{
+    font-family:BebasLight;
+    src:url("../../res/fonts/BebasNeueLight.otf");
+}
+
+:root{
+    --navigation-background:#222;
+    --navigation-text:#ccc;
+    --navigation-active-text:#fff;
+}
+
+body{
+    height:4000px;
+    
+    padding:0;
+    margin:0;
+
+    background-color:#282828;
+}
+
+p{
+    padding:0;
+    margin:0;
+}
+
+#header{
+    width:100%;
+    
+    position:relative;
+    
+    text-align:center;
+    
+    background-color:var(--navigation-background);
+}
+
+#navigation{
+    width:100%;
+    height:35px;
+    line-height:35px;
+    
+    position:sticky;
+    top:0;
+    
+    background-color:var(--navigation-background);
+    overflow:hidden auto;
+}
+
+#navigation #menu{
+    width:13px;
+    height:13px;
+    
+    float:left;
+    
+    margin:11px;
+}
+
+#navigation #menu:hover{
+    opacity:0.5;
+    
+    cursor:pointer;
+}
+
+#navigation #menu .segment{
+    width:80%;
+    height:13.3%;
+    /* top right bottom left */
+    margin:15% 10% 0% 10%;
+    
+    background-color:var(--navigation-text);
+}
+
+#navigation a{
+    height:100%;
+    
+    float:left;
+    
+    margin:0 10 0 10;
+    
+    font-family:BebasLight;
+    font-size:18px;
+    text-align:center;
+    
+    color:var(--navigation-text);
+}
+
+#navigation a:hover{
+    cursor:pointer;
+    
+    text-decoration:underline;
+    
+    color:var(--navigation-active-text);
+}
+
+#navigation a.active{
+    color:#ff0;
+}
+
+#logo{
+    padding:10px;
+    
+    font-family:Bebas;
+    font-size:50px;
+    font-variant:small-caps;
+    text-transform:uppercase;
+    
+    color:#fff;
+}
+
+#content{
+    width:100%
+}
+
+#news{
+    width:100%;
+    
+    background-color:#fff;
+    background-image: url(../../res/images/halloween01.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:100% auto;
+}

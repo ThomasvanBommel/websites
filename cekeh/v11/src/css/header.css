@@ -1,0 +1,127 @@
+#header{
+    --height:2.5em;
+    min-width:max-content;
+    
+    display:flex;
+    flex-wrap:wrap;
+    
+    margin-bottom:inherit;
+}
+
+#header .logo{
+    height:var(--height);
+    
+    float:left;
+    flex:0;
+}
+
+#header .navigation{
+    float:left;
+    flex:1;
+}
+
+#header .menu{
+    width:var(--height);
+    height:var(--height);
+    
+    float:right;
+    display:none;
+    
+    border-radius:0.5vmax;
+}
+
+#header .menu:hover{
+    cursor:pointer;
+    
+    background-color:orange;
+}
+
+#header .menu div{
+    width:80%;
+    height:10%;
+    
+    margin:17.5% 10%;
+    border-radius:0.5vmax;
+    
+    background-color:orange;
+}
+
+#header .menu:hover div{
+    background-color:white;
+}
+
+#header .options{
+    float:left;
+    white-space:nowrap;
+}
+
+#header .options a{
+    height:var(--height);
+    
+    line-height:var(--height);
+    text-decoration:none;
+}
+
+#header:not(.compact) .options a{
+    display:inline-block;
+    float:left;
+    
+    padding:0 1vmax;
+    
+    position:relative;
+}
+
+#header:not(.compact) .options a div{
+    width:80%;
+    height:10%;
+    
+    position:absolute;
+    left:10%;
+    bottom:10%;
+    
+    display:none;
+}
+
+#header:not(.compact) .options a:hover, #header:not(.compact) .options a.active{
+/*    background-color:orange;*/
+/*    color:white;*/
+}
+
+#header:not(.compact) .options a.active div{
+    background-color:orange;
+    display:block;
+}
+
+#header:not(.compact) .options a:hover div{
+    background-color:black;
+    display:block;
+}
+
+#header.compact .menu{
+    display:block;
+}
+
+#header.compact .options{
+    width:100%;
+    display:none;
+    
+    margin-top:var(--margin);
+    
+    text-align:center;
+}
+
+#header.compact.open .options{
+    display:block;
+}
+
+#header.compact .options a{
+    display:block;
+    
+    background-color:black;
+    color:white;
+    opacity:0.5;
+}
+
+#header.compact .options a:hover{
+    opacity:1.0;
+}

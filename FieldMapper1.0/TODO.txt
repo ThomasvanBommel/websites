@@ -1,0 +1,10 @@
+map needs width / height
+points size should be 1 (calculated from map width/height)
+
+create field object and have multiple fields in the map object
+
+dont set selected_field to 0 and set the remove button to not be clickable when nothing is selected
+
+UNDO BUTTON
+EDIT MODE
+SCALE

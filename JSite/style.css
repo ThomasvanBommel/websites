@@ -1,0 +1,9 @@
+#mainCanvas{
+	width:9%;
+	height:9%;
+	position: absolute;
+	top:50.5%;
+	left:50.5%;
+	border:1px solid #000;
+	background-color:#333;
+}

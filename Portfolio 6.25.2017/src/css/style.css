@@ -1,0 +1,96 @@
+html{ overflow:hidden; }
+body{ margin:0; }
+p{ margin:0; }
+div{ position:absolute; }
+canvas{
+}
+
+.header{
+	width:100%;
+	height:100px;
+	position:relative;
+	perspective:1000px;
+	float:left;
+}
+
+#cube{
+	width:500px;
+	height:100px;
+	position:absolute;
+	left:calc(50% - 250px);
+	transform-style:preserve-3d;
+	text-align:center;
+}
+
+#cube figure{
+	margin:0;
+	display:block;
+	position:absolute;
+	border:2px solid #000;
+}
+
+#cube figure.long{
+	width:496px;
+	height:98px;
+}
+
+#cube figure.short{
+	width:98px;
+	height:98px;
+	background-color:rgba(255, 255, 255, 0.5);
+}
+
+#cube p{
+	color:#FFF;
+	font:small-caps 98px Arial, sans-serif;
+	text-shadow:2px 2px 2px #000, 0 0 10px #000;
+	position:relative;
+	top:-15px;
+}
+
+#cube figure p{
+	text-shadow:none;
+	color:#000;
+}
+
+#cube .front  { transform: rotateY(   0deg ) translateZ( 50px ); }
+#cube .back   { transform: rotateX( 0deg ) translateZ( -50px ); }
+#cube .right  { transform: rotateY(  90deg ) translateZ( calc(498px - 50px) ); }/* 350 */
+#cube .left   { transform: rotateY( -90deg ) translateZ( 50px ); }
+#cube .top    { transform: rotateX(  90deg ) translateZ( 50px ); }
+#cube .bottom { transform: rotateX( -90deg ) translateZ( 50px ); }
+
+.container{
+	max-width:1000px;
+	width:100%;
+	height:calc(100% - 100px);
+	position:relative;
+	transform:translateX(-50%);
+	left:50%;
+	float:left;
+}
+
+#content{
+	width:100%;
+	height:100%;
+	transform-style:preserve-3d;
+}
+
+#content figure{
+	margin:0;
+	width:100%;
+	height:90%;
+	position:absolute;
+	top:5%;
+}
+
+#content figure.back{
+	color:#fff;
+	background-color:rgba(0, 0, 0, 0.5);
+	transform:translateZ(-50px);
+}
+
+#content figure.front{
+	background-color:rgba(255, 255, 255, 0.5);
+	transform:translateZ(0px);
+}

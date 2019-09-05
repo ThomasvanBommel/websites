@@ -1,0 +1,144 @@
+HTML{
+	background-color:#f1f1f1;
+	overflow:hidden;
+}
+BODY{
+	width:100%;
+	margin:0px;
+}
+#GameSelection{
+	width: 150px;
+	height: 100px;
+	float:right;
+	-webkit-transform: skew(45deg);
+	   -moz-transform: skew(45deg);
+	     -o-transform: skew(45deg);
+	background: #bed1dc;
+	border:2px solid #85a9be;
+	position:absolute;
+	left:calc(100% - 100px);
+	}
+hr{
+	display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px solid #909090;
+    margin: 1em 0;
+    padding: 0; 
+	}
+li{
+	list-style: none;
+	float:left;
+	}
+.light{
+	color: #3ea5c7;
+}
+.dark{
+	color: #bd6516;
+}
+#left{
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size:35pt;
+	width:50%;
+	height:100%;
+	float:left;
+	background-color: #0a0a0a;
+	color:#f1f1f1;
+	}
+#name{
+	width:100%;
+	background-color:#0a0a0a;
+	position:relative;
+	z-index: 1;
+}
+#tag{
+	width:56px;
+	height:56px;
+	position:relative;
+	top:-50px;
+	z-index: 0;
+	float:left;
+	-ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+#tag img{
+	position:relative;
+	top:0;
+	cursor:pointer;
+}
+#icon{
+	position:relative;
+	top:50px;
+	}
+#Games{
+	width:25%;
+	height:100%;
+	float:right;
+	position:relative;
+	right:-15%;
+		z-index:500;
+}
+#gContainer{
+	height:25%;
+	width:100%;
+	position:relative;
+	left: 0;
+}
+#gContent{
+	width:90%;
+	height:90%;
+	position:relative;
+	top:5%;
+	left:5%;
+	background-color:#f1f1f1;
+	box-shadow: 4px 4px #a1a1a1;
+}
+#gContent.grey{
+	background-color:#0a0a0a;
+	}
+.title{
+	width:90%;
+	height:15%;
+	background-color:#0a0a0a;
+	position:relative;
+	bottom:0px;
+	opacity:0.6;
+}
+#canvas{
+	height:45%;
+	width:50%;
+	position:absolute;
+	bottom:0;
+	}
+	#aboutMe{
+		width:36%;
+		height:100%;
+		position:absolute;
+		left:50%;
+		z-index:1;
+		padding:2%;
+		overflow:scroll;
+		}
+sub{
+	color:#909090;
+	}
+h2{
+	margin:0;
+	color:#553990;
+	}
+#description{
+	font-size:20px;
+}
+.b{
+	position:absolute;
+	float:left;
+	left:-100px;
+	margin-top:25px;
+}
+.u{
+	float:left;
+	position:absolute;
+	left:-100px;
+	margin-top:25px;
+}

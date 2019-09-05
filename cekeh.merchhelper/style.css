@@ -1,0 +1,133 @@
+HTML{
+	background-color:#242c44;
+}
+BODY{
+	width:100%;
+	margin:0px;
+}
+input.search{
+	width:100%;
+	font-size:6vh;
+	outline:none;
+	position:absolute;
+	left:0px;
+	bottom:1px;
+}
+div#navBar{
+	width:100%;
+	height: 9%;
+	background-color:#6D758E;
+	border-bottom:2px solid #C2C5CE;
+}
+.gp{
+	height:8vh;
+	background-image:url(images/coins/coins_10000.png);
+	background-size:8vh 8vh;
+	background-repeat:no-repeat;
+	float:left;
+}
+.gp p:hover{
+	background-color:#C2C5CE;
+	cursor:pointer;
+	box-shadow:#000 2px 2px;
+	
+}
+.gp p{
+	float:right;
+	font-size:4vh;
+	background-color:#9196A7;
+	border-radius:15px;
+	padding:5px;
+	position:relative;
+	left:calc(8vh + 5px);
+	top:-2.5vh;
+}
+#content{
+	width:100%;
+	height:41%;
+	float:left;
+	overflow:auto;
+	position:relative;
+}
+#TopContent{
+	width:80%;
+	height:41%;
+	float:left;
+	position:relative;
+	background-color:#C2C5CE;
+	border-bottom:2px solid #6D758E;
+	overflow:auto;
+}
+
+#content .result{
+	width:calc(20% - 14px);
+	height:calc(20% - 14px);
+	margin:5px;
+	float:left;
+	background-color:#6D758E;
+	border:2px solid #505A78;
+	position:relative;
+	overflow:hidden;
+}
+#History .result{
+	background-color:#B19C6F;
+	padding-bottom:4px;
+	margin-top:2px;
+}
+.result:hover{
+	background-color:#C2C5CE;
+	cursor:pointer;
+	outline: 2px solid #3CF;
+}
+.result p{
+	width:100%;
+	position:relative;
+	background-color:#505A78;
+	color:#C2C5CE;
+	top:0px;
+	left:0px;
+	padding:0px;
+	margin:0px;
+}
+#History{
+	position:fixed;
+	right:0px;
+	height:41%;
+	background-color:#6D758E;
+	outline:2px solid #374261;
+	width:20%;
+	float:left;
+	overflow:auto;
+}
+#History .result p{
+	background-color:#F8ECD2;
+	color:#374261;
+}
+#History .result img{
+	display:none;
+}
+.result img{
+	padding:10px;
+}
+.add{
+	width:20px;
+	height:20px;
+	background-image: url(images/others/add.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+}
+
+.ui-resizable { position: relative;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; height: 7px; width: 100%; top: -5px; left: 0; }
+.ui-resizable-s { cursor: s-resize; height: 7px; width: 100%; bottom: -5px; left: 0; }
+.ui-resizable-e { cursor: e-resize; width: 7px; right: -5px; top: 0; height: 100%; }
+.ui-resizable-w { cursor: w-resize; width: 7px; left: -5px; top: 0; height: 100%; }
+.ui-resizable-se { cursor: se-resize; width: 12px; height: 12px; right: 1px; bottom: 1px; }
+.ui-resizable-sw { cursor: sw-resize; width: 9px; height: 9px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 9px; height: 9px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}

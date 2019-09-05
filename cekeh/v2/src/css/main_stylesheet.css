@@ -1,0 +1,132 @@
+/*********/
+/* Reset */
+
+    input, body, p{
+        margin:0;
+        padding:0;
+        
+        font-family:inherit;
+        font-weight:inherit;
+        font-size:inherit;
+    }
+
+/* End Reset */
+/*************/
+/*    Font   */
+
+    /* Bebas */
+    @font-face{
+        font-family:Bebas;
+        src:url("../font/BebasNeue.otf");
+    }
+    /* End Bebas */
+
+/* End Font */
+/************/
+/*   Root   */
+
+    :root{
+        --header-height:6vh;
+    }
+
+    html{
+        font-family:sans-serif;
+        font-size:2vh;
+    }
+
+/* End Root */
+/************/
+/*  Mobile  */
+
+    /* Header */
+    #header{
+        width:100%;
+        height:var(--header-height);
+
+        background-color:#fff;
+        box-shadow:0 2px #f70;
+        
+        font-size:var(--header-height);
+        
+        position:relative;
+    }
+    /* End Header */
+
+    /* Notifications */
+    #notifications{
+        width:100%;
+        
+        position:absolute;
+        bottom:0;
+        right:0;
+    }
+
+    #notifications notification{
+        float:right;
+        clear:right;
+        
+        padding:0.5vw;
+        margin:0 0.5vw 0.5vw 0.5vw;
+        
+        opacity:0.75;
+    }
+
+    #notifications notification:hover{
+        cursor:pointer;
+        opacity:1;
+    }
+
+    #notifications notification.normal{
+        background-color:#999;
+        color:#000;
+    }
+
+    #notifications notification.error{
+        background-color:#f99;
+        color:#000;
+    }
+    /* End Notifications */
+
+    /* Login form */
+    #login{
+    }
+
+    #login input{
+        float:left;
+    }
+    /* End Login form */
+
+    /* New User form */
+    #newuser{
+        width:30vh;
+        
+        background-color:#ccc;
+    }
+
+    #newuser .icon{
+        width:2.5vh;
+        height:2.5vh;
+        
+        float:left;
+        margin:.2vh 0 0 .2vh;
+        
+        background-color:#666;
+    }
+
+    #newuser input.field{
+        width:calc(100% - 2.9vh);
+        height:2.5vh;
+        
+        margin:.2vh 0 0 0;
+    }
+
+    #newuser input.button{
+        width:calc(100% - .4vh);
+        
+        margin:.2vh;
+    }
+    /* End New User form */
+
+/* End Mobile */
+/**************/
+/*  Desktop   */

@@ -1,0 +1,26 @@
+canvas{
+	background: #0A0;
+	background: radial-gradient(circle at top, #0A0, #040);
+}
+
+#MouseInfo{
+	float:left;
+	position:absolute;
+	color:white;
+}
+
+#Collected{
+	font-size:50px;
+	float:left;
+	position:absolute;
+	right:0;
+	color:white;
+}
+
+#Message{
+	float:left;
+	position:absolute;
+	color:#F00;
+	font-size:100px;
+	bottom:0;
+}

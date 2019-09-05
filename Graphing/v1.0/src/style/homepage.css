@@ -1,0 +1,59 @@
+html{}
+body{ margin:0; overflow:hidden; }
+
+#graph_container{
+	--border:	20px;
+	--gps:		50px;
+}
+.graph{
+	width:				calc(100% - (var(--border) * 2));
+	height:				calc(50% - (var(--border) * 2));
+	
+	float:				left;
+	
+	color:				#f0f0f0;
+	background-color:	#0f0f0f;
+    
+	margin: 			var(--border);
+    outline:			var(--border) solid #0f0f0f;
+	
+	position:			relative;
+}
+.graph_point{	
+	text-align:			center;
+	line-height:		var(--gps);
+	
+	border-radius:		10px;
+	background-color:	#323232;
+	
+	font-size:			var(--gps);
+	
+	position:			absolute;
+	top:				0;
+	left:				0;
+}
+
+#main_control{
+	width:	100%;
+	height:	50%;
+}
+
+.control{
+	float:				left;
+	background-color:	#888;
+}
+
+.slider_input{	
+	border: 		2px solid #fff;
+	float:			left;
+	font-size:		30px;
+}
+
+
+/*DEV*/
+#microtime{
+	color:		#f0f0f0;
+	position:	absolute;
+	bottom:		0;
+	right:		0;
+}

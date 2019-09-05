@@ -1,0 +1,71 @@
+/* Reset */
+body{
+	margin:0;
+}
+
+p{
+	margin:0;
+}
+
+/* Styling */
+.machine{
+	width:100%;
+	height:100%;
+	float:left;
+	background-color:#CCC;
+}
+
+.machine .header{
+	width:100%;
+	height:20vmin;
+	float:left;
+	background-color:#999;
+	
+	font-size:18vmin;
+	text-align:center;
+}
+
+.machine .footer{
+	width:100%;
+	height:20vmin;
+	float:left;
+	background-color:#999;
+}
+
+.machine .footer .panel{
+	width:calc(50% - 20px);
+	height:7vmin;
+	float:left;
+	background-color:#AAA;
+	
+	margin:10px;
+	
+	color:#F00;
+	font-size:5vmin;
+	text-align:center;
+}
+
+.machine .footer .spin{
+	width:calc(100% - 20px);
+}
+
+.machine .footer .title{
+	float:left;
+	color:#000;
+	
+	margin-left:10px;
+}
+
+.machine .footer .value{
+	float:right;
+	color:#F00;
+	
+	margin-right:10px;
+}
+
+.machine .canvas{
+	width:100%;
+	height:calc(100% - 40vmin);
+	float:left;
+}
+

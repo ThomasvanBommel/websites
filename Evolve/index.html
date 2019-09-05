@@ -1,0 +1,48 @@
+<html>
+<head>
+
+</head>
+<body>
+
+
+<center>
+	<div id="photo" width="1920px" height="1080px" style="width:1920px;
+    													height:1080px;
+    													background-image:url(images/evoleSlideshow.jpg); 
+    													background-size:1920px 1080px; 
+                                                        background-repeat:no-repeat;
+                                                        margin:0 auto;" >
+                                                        </div>
+	<div id="line" width="1920px" height="1080px" style="width:100%;
+										height:1080px;
+                                        background-image:url(images/line.png);
+                                        background-size:12px 1080px; 
+                                        background-repeat:repeat-x;
+                                        position:absolute;
+                                        top:8px;
+                                        left:0px;">
+        								</div>
+        
+    
+    
+    <br>
+    
+    <script>
+	//var count = 0;
+	var count = 0;
+	function nextP(){
+		count += 2;
+		document.getElementById("line").style.left = count+"px";
+		
+	}
+	</script>
+    
+    <input type="button" value="<" onclick="nextP()" />
+    Evolve
+    <input type="button" value=">" />
+    
+    
+</center>
+
+</body>
+</html>

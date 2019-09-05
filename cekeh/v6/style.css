@@ -1,0 +1,33 @@
+body, form, span, p{
+    margin:0;
+    padding:0;
+    float:left;
+    
+    background-color:#000;
+    color:inherit;
+    
+/*    word-wrap:break-word;*/
+    word-break:break-all;
+}
+
+:root{
+    --font-size:16px;
+    --terminal-margin:20px;
+    
+    font:var(--font-size) monospace;
+}
+
+body{
+    color:#fff;
+}
+
+terminal{
+    width:calc(100% - (var(--terminal-margin) * 2));
+    height:calc(100% - (var(--terminal-margin) * 2));
+    
+    margin:var(--terminal-margin);
+}
+
+form{
+    width:100%;
+}

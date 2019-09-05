@@ -1,0 +1,61 @@
+body, i, p, h1, h3, header, span{
+    padding:0;
+    margin:0;
+    
+    font-family:inherit;
+    font-weight:inherit;
+/*    font-style:normal;*/
+    font-size:inherit;
+    
+    line-height:inherit;
+    letter-spacing:inherit;
+    color:inherit;
+}
+
+html{
+    font-family:monospace;
+    font-size:20px;
+    
+/*    line-height:1.5em;*/
+    letter-spacing:normal;
+    color:#111;
+}
+
+h1  { font-size:200%; }
+h3  { font-size:100%; }
+
+:root{
+    --background-color:#fff;
+    --highlight-color:#ff8c00;
+}
+
+/* WIDTH */
+.w50    { width:50%; }
+.w100   { width:100%; }
+
+/* HEIGHT */
+.h100   { height:100%; }
+.h100vh { height:100vh; }
+
+/* POSITION */
+.fixed  { position:fixed; }
+
+/* FLOAT */
+.left   { float:left; }
+.right  { float:right; }
+
+/* BACKGROUND */
+.bg-background  { background-color:var(--background-color); }
+.bg-highlight   { background-color:var(--highlight-color); }
+.bg-black   { background-color:black; }
+.bg-white   { background-color:white; }
+
+/* TEXT COLOR */
+.background { color:var(--background-color); }
+.highlight { color:var(--highlight-color); }
+.black  { color:black; }
+.white  { color:white; }
+
+/* TEXT ALIGNMENT */
+.center-text    { text-align:center; }
+

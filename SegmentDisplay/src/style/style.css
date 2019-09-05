@@ -1,0 +1,84 @@
+body{ margin:0; }
+
+#display{
+	width: 				200px;
+	height: 			100px;
+	
+	margin:				0 auto;
+	border:				2px solid #000;
+	background-color: 	#ddd;
+}
+
+.display{
+	border:				2px solid #000;
+	background-color: 	#ddd;
+}
+
+.digit{
+	float:				left;
+	position:			relative;
+}
+
+.segment{
+	float:				left;
+	position:			absolute;
+}
+
+.off{
+	opacity:			0.02;
+}
+
+.on{
+	opacity:			1;
+}
+
+.s_horizontal{
+	width:	76.9231%;
+	height:	5.3191%;
+	
+	background-image:	url("../../src/images/h_segment.png");
+	background-size:	100% 100%;
+}
+
+.s_vertical{
+	width:	9.6154%;
+	height:	42.5532%;
+	
+	background-image:	url("../../src/images/v_segment.png");
+	background-size:	100% 100%;
+}
+
+.s0{
+	top:	2.6596%;
+	left:	11.5385%;
+}
+
+.s1{
+	top:	6.3830%;
+	left:	85.5769%;
+}
+
+.s2{
+	top:	51.0638%;
+	left:	85.5769%;
+}
+
+.s3{
+	top:	92.0213%;
+	left:	11.5385%;
+}
+
+.s4{
+	top:	51.0638%;
+	left:	4.8077%;
+}
+
+.s5{
+	top:	6.3830%;
+	left:	4.8077%;
+}
+
+.s6{
+	top:	47.3404%;
+	left:	11.5385%;
+}

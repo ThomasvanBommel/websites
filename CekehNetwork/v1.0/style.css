@@ -1,0 +1,152 @@
+/* INDEX */
+body{
+	margin:0;
+}
+.header{
+	width:100vw;
+	height:10vw;
+	float:left;
+	text-align:center;
+	text-shadow:.5vw .5vw #AAA;
+}
+.stats{
+	width:96%;
+	height:15vw;
+	margin:0 auto;
+	margin-left:1%;
+	padding:1%;
+	font-size:3vw;
+	position:relative;
+}
+.content{
+	width:98vw;	
+	height: calc(100% - 15vw - 30px);
+	float:left;	
+	margin-top:1vw;
+	margin-left:1vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+}
+footer{
+	width:98%;
+	height:5vw;
+	margin-left:1%;
+	background-color:#CCC;
+	position:absolute;
+	bottom:0;
+	line-height:5vw;
+}
+#foot_text{
+	font-size:2vw;
+	vertical-align:middle;
+	color:#888;
+}
+
+a:link{
+	color:#00F;
+}
+a:visited{
+	color:#00F;
+}
+a:hover{
+	color:#00F;
+}
+a:active{
+	color:#00F;
+}
+
+/* LOGO */
+#logo{
+	font-size:10vw;
+	margin:0 auto;
+	text-align:center;
+	line-height:10vw;
+	position:relative;
+}
+
+/* HEADER */
+
+
+/* LOGIN */
+.login{
+	width:33vw;
+	height:15vw;
+	margin:0 auto;
+}
+
+/* CONTENT */
+
+
+/* LOGIN FORM */
+#form{
+	width:calc(100% - 10px);
+	height:calc((100% - 30px) / 3);
+	margin:5px;
+	font-size:2vw;
+}
+
+/* */
+
+stat{
+	background-color:#CCC;
+	box-shadow:2px 2px #BBB;
+}
+#information_box{
+	width:50%;
+	height:100%;
+	float:left;	
+}
+#history_box{
+	width:50%;
+	height:100%;
+	float:right;
+}
+.float_right{
+	float:right;
+}
+#log_out_button{
+	font-size:3vw;
+	background-color:#EEE;
+	position:absolute;
+	bottom:1vw;
+	right:1vw;
+}
+#log_out_button:hover{
+	background-color:#BBB;
+	cursor:pointer;
+}
+time{
+	color:#F00;
+}
+description{
+	width:85%;
+	float:right;
+	font-size:2vw;
+	color:#999;
+}
+
+#create_account{
+	width: 33vw;
+	margin:0 auto;
+	text-align:center;
+	font-size:2vw;
+}
+
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* */
+
+/* COLOR SCHEMES */
