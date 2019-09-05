@@ -1,0 +1,117 @@
+body, h1, h2, h3, h4, h5, p{ margin:0; }
+
+body, header, div, a, p{
+    font-size:inherit;
+    font-family:inherit;
+    font-weight:inherit;
+    
+    text-decoration:none;
+    color:inherit;
+}
+
+h1{ font-size:3.0vmax; }
+h2{ font-size:2.4vmax; }
+h3{ font-size:1.8vmax; }
+h4{ font-size:1.2vmax; }
+h5{ font-size:0.6vmax; }
+
+@font-face{
+    font-family:Bebas;
+    src:url("BebasNeue.otf");
+}
+
+@font-face{
+    font-family:BebasLight;
+    src:url("BebasNeueLight.otf");
+}
+
+:root{
+    font-size:1.8vmax;
+    font-family:Bebas;
+    font-weight:normal;
+    text-shadow:2px 2px 1px #ccc;
+    
+    --header-height:3.6vmax;
+    
+    --orange:#ff5500;
+}
+
+body{
+    background-color:#333;
+}
+
+#header{
+    height:var(--header-height);
+    line-height:var(--header-height);
+    text-shadow:2px 2px 1px #000;
+}
+
+#header .logo{
+    outline:0.05em solid #fff;
+    outline-offset:-0.1em;
+}
+
+#header .navigation a{
+    height:100%;
+    float:left;
+    padding:0 0.5vmax;
+}
+
+#header .navigation a:hover, #header .navigation a.active{
+    text-decoration:underline;
+    background-color:white;
+    text-shadow:2px 2px 1px #ccc;
+    color:black;
+}
+
+#banner{
+    width:100%;
+    height:30vmax;
+
+    background-color:white;
+}
+
+main{
+    width:calc(100% - 2vmax);
+    display:flex;
+    flex-wrap:wrap;
+    margin:1vmax;
+    /*background-color:white;*/
+}
+
+main article{
+    min-width:200px;
+    /*display:inline-block;*/
+    float:left;
+
+    margin:0 auto;
+    flex:1;
+    text-align:center;
+    /*background-color:var(--orange);*/
+    /*float:left;*/
+}
+
+main article div{
+    width:calc(100% - 1vmax);
+    height:calc(100% - 1vmax);
+    /*height:20vmax;*/
+    margin:0.5vmax;
+    background-color:var(--orange);
+}
+
+.w100   { width:100%; }
+.h100   { height:100%; }
+
+.right  { float:right; }
+.left   { float:left; }
+
+.bebas          { font-family:Bebas; }
+.bebas-light    { font-family:BebasLight; }
+.monospace      { font-family:monospace; }
+
+.white  { color:white; }
+.black  { color:black; }
+.orange { color:var(--orange); }
+
+.bg-black   { background-color:black; }
+.bg-orange  { background-color:var(--orange); }
